@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 5px;
+
+}
+.box1 img {
+    width: 750px;
+    height: 720px;
+}
+.box2 {
+    float: right;
+    width: 720px;
+    height: 720px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(19, 126, 220, 0.1);
+    margin-top: -725px;
+}
+.box2 h1 {
+    text-align: center;
+    color: black;
+    font-size: 72px;
+}
+.box2 p{
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.box2 form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.box2 form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} 
+.box2 form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #137edc;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 15px;
+} 
+.box2 form button:hover {
+    background-color: #0f6bbd;
+} 
+.box2 form p {
+    margin-top: 20px;
+    color: #666;
+    font-size: 20px;
+}
